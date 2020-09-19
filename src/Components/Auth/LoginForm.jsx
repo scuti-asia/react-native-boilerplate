@@ -1,23 +1,71 @@
 import React from 'react';
+import {connect} from 'react-redux';
 import {
   StyleSheet,
-  View,
-  Text,
-  Button
+  View
 } from 'react-native';
+import { Container, Header, Content, Form, Item, Input, Label, Button, Text, Icon } from 'native-base';
 
-const LoginForm = ({navigation}) => {
-  return (
-    <View style={styles.container}>
-      <Text>Welcome Login Form!!!</Text>
-      <Button
-        title="Go to Register page"
-        onPress={() => {
-          navigation.navigate('Register')
-        }}
-      />
-    </View>
-  )
+import { updateMe } from '../../Lib/redux/actions';
+
+class LoginForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      fields: {
+        email: '',
+        password: ''
+      },
+      icon_eye: 'eye-off',
+      is_password: true
+    };
+  }
+
+  handleChange(text, name) {
+    const { fields } = this.state;
+    const newValue = { ...fields, [name]: text }
+    this.setState({fields: newValue});
+  }
+
+  _changeIcon() {
+    this.setState(prevState => ({
+      icon_eye: prevState.icon_eye === 'eye' ? 'eye-off' : 'eye',
+      is_password: !prevState.is_password
+    }))
+  }
+
+  onSubmitForm(e) {
+    e.preventDefault();
+    this.props.onLoginButton(this.state.fields);
+  }
+
+  render() {
+    return (
+      <Container style={{justifyContent: 'center'}}>
+        <Content>
+          <Form>
+            <Item >
+              <Input
+                onChangeText={(text) => this.handleChange(text, 'email')}
+                placeholder="Email"
+              />
+            </Item>
+            <Item >
+              <Input
+                onChangeText={(text) => this.handleChange(text, 'password')}
+                secureTextEntry={this.state.is_password}
+                placeholder="Password"
+              />
+            </Item>
+          </Form>
+            
+          <Button
+            onPress={(e) => this.onSubmitForm(e)}
+            primary style={{justifyContent:"center"}}><Text> Sign In </Text></Button>
+        </Content>
+      </Container>
+    )
+  }
 }
 
 const styles = StyleSheet.create({
@@ -28,4 +76,10 @@ const styles = StyleSheet.create({
   }
 });
 
-export default LoginForm;
+const mapDispatchToProps = dispatch => {
+  return {
+    onLoginButton: () => dispatch(updateMe({me: 'Ta Hieu'}))
+  }
+}
+
+export default connect(null, mapDispatchToProps)(LoginForm);

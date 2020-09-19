@@ -1,25 +1,25 @@
 import React from 'react';
-// import { connect } from 'react-redux';
+import { connect } from 'react-redux';
 // import {ActivityIndicator} from "react-native";
 import { NavigationContainer } from '@react-navigation/native';
-// import NavigationTabs from './NavigationTabs';
-// import Center from '../Components/Parts/Center';
+import NavigationTabs from './NavigationTabs';
 import AuthStack from './AuthStack';
 
 const NavigationStack = (props) => {
-  // if(props.loading) {
-  //   return (
-  //     <Center>
-  //       <ActivityIndicator size="large" />
-  //     </Center>
-  //   )
-  // }
   return (
     <NavigationContainer>
-      {/* {props.user ? <NavigationTabs /> : <AuthStack />} */}
-      <AuthStack />
+      {props.user ? <NavigationTabs /> : <AuthStack />}
     </NavigationContainer>
   )
 }
 
-export default NavigationStack
+const mapStateToProps = (storeState, ownProps) => {
+  let newState = Object.assign({}, ownProps);
+  newState.user = storeState.me;
+
+  return newState
+}
+
+export default connect(
+  mapStateToProps
+) (NavigationStack)
