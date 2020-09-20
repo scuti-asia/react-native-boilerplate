@@ -4,7 +4,7 @@ name: Deploy to Alpha
 on:
   push:
     branches:
-      - release/
+      - release/1.4
 jobs:
   build-android:
     runs-on: ubuntu-latest
