@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:reactNativeBoilerplate.xcodeproj">
+      location = "group:/Users/lee/Desktop/Scuti/ios/Scuti.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Scuti.xcodeproj">
    </FileRef>
 </Workspace>
