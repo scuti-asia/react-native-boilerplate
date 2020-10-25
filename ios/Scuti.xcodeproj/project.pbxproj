@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* reactNativeBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactNativeBoilerplateTests.m */; };
+		00E356F31AD99517003FC87E /* ScutiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ScutiTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* reactNativeBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactNativeBoilerplateTests.m */; };
-		6515E1F971049388487F492F /* libPods-reactNativeBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DF13B9ADF6E967F69B11B6 /* libPods-reactNativeBoilerplate.a */; };
-		6E1A34B1C5CB046446F6AF69 /* libPods-reactNativeBoilerplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115160F5AB57D0BC45C0B074 /* libPods-reactNativeBoilerplate-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ScutiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ScutiTests.m */; };
+		30E16B81CECBFC62C5C4934E /* libPods-Scuti-ScutiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019CAC7B221A051E6895C0F9 /* libPods-Scuti-ScutiTests.a */; };
+		778C8536101B628647514A95 /* libPods-Scuti-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B95EB20685D8EB601B8791 /* libPods-Scuti-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		98F93B006B87086678B6FB68 /* libPods-reactNativeBoilerplate-reactNativeBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2456B529CB6964DACA3BFCD /* libPods-reactNativeBoilerplate-reactNativeBoilerplateTests.a */; };
-		D9E0584D152C6BC1B3B1789A /* libPods-reactNativeBoilerplate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C013C52BAAF4CD8470F4B3 /* libPods-reactNativeBoilerplate-tvOS.a */; };
+		C7735AB0A8A71DA74AEAB7BA /* libPods-Scuti-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC37E8A7BE28CEA4C13E00E /* libPods-Scuti-tvOSTests.a */; };
+		CEB387D3391F14D31F1860F3 /* libPods-Scuti.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0741C872ADBC9BD5A428F9D7 /* libPods-Scuti.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,53 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = reactNativeBoilerplate;
+			remoteInfo = Scuti;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "reactNativeBoilerplate-tvOS";
+			remoteInfo = "Scuti-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* reactNativeBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactNativeBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ScutiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScutiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* reactNativeBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactNativeBoilerplateTests.m; sourceTree = "<group>"; };
-		0A0E58EE05F9231E8F149BC6 /* Pods-reactNativeBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate/Pods-reactNativeBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
-		0DB6A93FAEC9083353AC9358 /* Pods-reactNativeBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate/Pods-reactNativeBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
-		115160F5AB57D0BC45C0B074 /* libPods-reactNativeBoilerplate-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeBoilerplate-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* reactNativeBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactNativeBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactNativeBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactNativeBoilerplate/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactNativeBoilerplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactNativeBoilerplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactNativeBoilerplate/main.m; sourceTree = "<group>"; };
-		1607753D527FF69916481347 /* Pods-reactNativeBoilerplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate-tvOS/Pods-reactNativeBoilerplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactNativeBoilerplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* reactNativeBoilerplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactNativeBoilerplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51CE26B5194DAF52923452AF /* Pods-reactNativeBoilerplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate-tvOS/Pods-reactNativeBoilerplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5A6CA52308E49AB892FCB950 /* Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactNativeBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8D71C7E2E22B0EDD481FA49A /* Pods-reactNativeBoilerplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate-tvOSTests/Pods-reactNativeBoilerplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9220F0F29AFA1128DDFB9A9A /* Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		A2456B529CB6964DACA3BFCD /* libPods-reactNativeBoilerplate-reactNativeBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeBoilerplate-reactNativeBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0DF13B9ADF6E967F69B11B6 /* libPods-reactNativeBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA3CE07F54508A288BFFFD4 /* Pods-reactNativeBoilerplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeBoilerplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeBoilerplate-tvOSTests/Pods-reactNativeBoilerplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D9C013C52BAAF4CD8470F4B3 /* libPods-reactNativeBoilerplate-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeBoilerplate-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* ScutiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScutiTests.m; sourceTree = "<group>"; };
+		019CAC7B221A051E6895C0F9 /* libPods-Scuti-ScutiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Scuti-ScutiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05803D860EBF387C7022255F /* Pods-Scuti-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOS/Pods-Scuti-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		05A03E67CFDB47A9BA1319EB /* Pods-Scuti-ScutiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-ScutiTests.release.xcconfig"; path = "Target Support Files/Pods-Scuti-ScutiTests/Pods-Scuti-ScutiTests.release.xcconfig"; sourceTree = "<group>"; };
+		0741C872ADBC9BD5A428F9D7 /* libPods-Scuti.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Scuti.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0E58EE05F9231E8F149BC6 /* Pods-Scuti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti.release.xcconfig"; path = "Target Support Files/Pods-Scuti/Pods-Scuti.release.xcconfig"; sourceTree = "<group>"; };
+		0DB6A93FAEC9083353AC9358 /* Pods-Scuti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti.debug.xcconfig"; path = "Target Support Files/Pods-Scuti/Pods-Scuti.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Scuti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scuti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Scuti/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Scuti/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Scuti/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Scuti/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Scuti/main.m; sourceTree = "<group>"; };
+		1607753D527FF69916481347 /* Pods-Scuti-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOS/Pods-Scuti-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2CD07501BB1EEA2EF93F611F /* Pods-Scuti-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOS/Pods-Scuti-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Scuti-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scuti-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Scuti-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scuti-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32847C0EC5D751655522D181 /* Pods-Scuti-ScutiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-ScutiTests.debug.xcconfig"; path = "Target Support Files/Pods-Scuti-ScutiTests/Pods-Scuti-ScutiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51CE26B5194DAF52923452AF /* Pods-Scuti-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOS/Pods-Scuti-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5A6CA52308E49AB892FCB950 /* Pods-Scuti-ScutiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-ScutiTests.debug.xcconfig"; path = "Target Support Files/Pods-Scuti-ScutiTests/Pods-Scuti-ScutiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Scuti/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C35B49ED3FB8BE1EF630E3 /* Pods-Scuti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti.release.xcconfig"; path = "Target Support Files/Pods-Scuti/Pods-Scuti.release.xcconfig"; sourceTree = "<group>"; };
+		8AE6FE6B8A78582FA1C89E03 /* Pods-Scuti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti.debug.xcconfig"; path = "Target Support Files/Pods-Scuti/Pods-Scuti.debug.xcconfig"; sourceTree = "<group>"; };
+		8D71C7E2E22B0EDD481FA49A /* Pods-Scuti-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOSTests/Pods-Scuti-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9220F0F29AFA1128DDFB9A9A /* Pods-Scuti-ScutiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-ScutiTests.release.xcconfig"; path = "Target Support Files/Pods-Scuti-ScutiTests/Pods-Scuti-ScutiTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2B95EB20685D8EB601B8791 /* libPods-Scuti-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Scuti-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA3CE07F54508A288BFFFD4 /* Pods-Scuti-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOSTests/Pods-Scuti-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFC37E8A7BE28CEA4C13E00E /* libPods-Scuti-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Scuti-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB6E2BA685D44DF7B6E4B46 /* Pods-Scuti-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOSTests/Pods-Scuti-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FD06681BEAC92D095C8FB36D /* Pods-Scuti-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scuti-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Scuti-tvOSTests/Pods-Scuti-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F93B006B87086678B6FB68 /* libPods-reactNativeBoilerplate-reactNativeBoilerplateTests.a in Frameworks */,
+				30E16B81CECBFC62C5C4934E /* libPods-Scuti-ScutiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6515E1F971049388487F492F /* libPods-reactNativeBoilerplate.a in Frameworks */,
+				CEB387D3391F14D31F1860F3 /* libPods-Scuti.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9E0584D152C6BC1B3B1789A /* libPods-reactNativeBoilerplate-tvOS.a in Frameworks */,
+				778C8536101B628647514A95 /* libPods-Scuti-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +106,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E1A34B1C5CB046446F6AF69 /* libPods-reactNativeBoilerplate-tvOSTests.a in Frameworks */,
+				C7735AB0A8A71DA74AEAB7BA /* libPods-Scuti-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* reactNativeBoilerplateTests */ = {
+		00E356EF1AD99517003FC87E /* ScutiTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* reactNativeBoilerplateTests.m */,
+				00E356F21AD99517003FC87E /* ScutiTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = reactNativeBoilerplateTests;
+			path = ScutiTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +130,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* reactNativeBoilerplate */ = {
+		13B07FAE1A68108700A75B9A /* Scuti */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +141,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = reactNativeBoilerplate;
+			name = Scuti;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +149,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B0DF13B9ADF6E967F69B11B6 /* libPods-reactNativeBoilerplate.a */,
-				A2456B529CB6964DACA3BFCD /* libPods-reactNativeBoilerplate-reactNativeBoilerplateTests.a */,
-				D9C013C52BAAF4CD8470F4B3 /* libPods-reactNativeBoilerplate-tvOS.a */,
-				115160F5AB57D0BC45C0B074 /* libPods-reactNativeBoilerplate-tvOSTests.a */,
+				0741C872ADBC9BD5A428F9D7 /* libPods-Scuti.a */,
+				019CAC7B221A051E6895C0F9 /* libPods-Scuti-ScutiTests.a */,
+				B2B95EB20685D8EB601B8791 /* libPods-Scuti-tvOS.a */,
+				DFC37E8A7BE28CEA4C13E00E /* libPods-Scuti-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,16 +160,23 @@
 		7E8AAEFC829BE78CD3D834F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0DB6A93FAEC9083353AC9358 /* Pods-reactNativeBoilerplate.debug.xcconfig */,
-				0A0E58EE05F9231E8F149BC6 /* Pods-reactNativeBoilerplate.release.xcconfig */,
-				5A6CA52308E49AB892FCB950 /* Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.debug.xcconfig */,
-				9220F0F29AFA1128DDFB9A9A /* Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.release.xcconfig */,
-				51CE26B5194DAF52923452AF /* Pods-reactNativeBoilerplate-tvOS.debug.xcconfig */,
-				1607753D527FF69916481347 /* Pods-reactNativeBoilerplate-tvOS.release.xcconfig */,
-				CFA3CE07F54508A288BFFFD4 /* Pods-reactNativeBoilerplate-tvOSTests.debug.xcconfig */,
-				8D71C7E2E22B0EDD481FA49A /* Pods-reactNativeBoilerplate-tvOSTests.release.xcconfig */,
+				0DB6A93FAEC9083353AC9358 /* Pods-Scuti.debug.xcconfig */,
+				0A0E58EE05F9231E8F149BC6 /* Pods-Scuti.release.xcconfig */,
+				5A6CA52308E49AB892FCB950 /* Pods-Scuti-ScutiTests.debug.xcconfig */,
+				9220F0F29AFA1128DDFB9A9A /* Pods-Scuti-ScutiTests.release.xcconfig */,
+				51CE26B5194DAF52923452AF /* Pods-Scuti-tvOS.debug.xcconfig */,
+				1607753D527FF69916481347 /* Pods-Scuti-tvOS.release.xcconfig */,
+				CFA3CE07F54508A288BFFFD4 /* Pods-Scuti-tvOSTests.debug.xcconfig */,
+				8D71C7E2E22B0EDD481FA49A /* Pods-Scuti-tvOSTests.release.xcconfig */,
+				8AE6FE6B8A78582FA1C89E03 /* Pods-Scuti.debug.xcconfig */,
+				85C35B49ED3FB8BE1EF630E3 /* Pods-Scuti.release.xcconfig */,
+				32847C0EC5D751655522D181 /* Pods-Scuti-ScutiTests.debug.xcconfig */,
+				05A03E67CFDB47A9BA1319EB /* Pods-Scuti-ScutiTests.release.xcconfig */,
+				2CD07501BB1EEA2EF93F611F /* Pods-Scuti-tvOS.debug.xcconfig */,
+				05803D860EBF387C7022255F /* Pods-Scuti-tvOS.release.xcconfig */,
+				ECB6E2BA685D44DF7B6E4B46 /* Pods-Scuti-tvOSTests.debug.xcconfig */,
+				FD06681BEAC92D095C8FB36D /* Pods-Scuti-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,9 +190,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* reactNativeBoilerplate */,
+				13B07FAE1A68108700A75B9A /* Scuti */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* reactNativeBoilerplateTests */,
+				00E356EF1AD99517003FC87E /* ScutiTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7E8AAEFC829BE78CD3D834F8 /* Pods */,
@@ -190,10 +205,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* reactNativeBoilerplate.app */,
-				00E356EE1AD99517003FC87E /* reactNativeBoilerplateTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* reactNativeBoilerplate-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Scuti.app */,
+				00E356EE1AD99517003FC87E /* ScutiTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Scuti-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Scuti-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* reactNativeBoilerplateTests */ = {
+		00E356ED1AD99517003FC87E /* ScutiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactNativeBoilerplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ScutiTests" */;
 			buildPhases = (
 				CBB3D56E63A7941CCEFA3BEB /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +231,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = reactNativeBoilerplateTests;
-			productName = reactNativeBoilerplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* reactNativeBoilerplateTests.xctest */;
+			name = ScutiTests;
+			productName = ScutiTests;
+			productReference = 00E356EE1AD99517003FC87E /* ScutiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* reactNativeBoilerplate */ = {
+		13B07F861A680F5B00A75B9A /* Scuti */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactNativeBoilerplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Scuti" */;
 			buildPhases = (
 				FEE5AB7173EF5C4108B04440 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +252,14 @@
 			);
 			dependencies = (
 			);
-			name = reactNativeBoilerplate;
-			productName = reactNativeBoilerplate;
-			productReference = 13B07F961A680F5B00A75B9A /* reactNativeBoilerplate.app */;
+			name = Scuti;
+			productName = Scuti;
+			productReference = 13B07F961A680F5B00A75B9A /* Scuti.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Scuti-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeBoilerplate-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Scuti-tvOS" */;
 			buildPhases = (
 				718837ACCF096B8736BE5E05 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +272,14 @@
 			);
 			dependencies = (
 			);
-			name = "reactNativeBoilerplate-tvOS";
-			productName = "reactNativeBoilerplate-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOS.app */;
+			name = "Scuti-tvOS";
+			productName = "Scuti-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Scuti-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Scuti-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeBoilerplate-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Scuti-tvOSTests" */;
 			buildPhases = (
 				7EA386FD2064BDC41D4C626A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +291,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "reactNativeBoilerplate-tvOSTests";
-			productName = "reactNativeBoilerplate-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* reactNativeBoilerplate-tvOSTests.xctest */;
+			name = "Scuti-tvOSTests";
+			productName = "Scuti-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Scuti-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +322,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactNativeBoilerplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Scuti" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +335,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* reactNativeBoilerplate */,
-				00E356ED1AD99517003FC87E /* reactNativeBoilerplateTests */,
-				2D02E47A1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Scuti */,
+				00E356ED1AD99517003FC87E /* ScutiTests */,
+				2D02E47A1E0B4A5D006451C7 /* Scuti-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Scuti-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +398,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactNativeBoilerplate/Pods-reactNativeBoilerplate-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Scuti/Pods-Scuti-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -392,7 +407,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactNativeBoilerplate/Pods-reactNativeBoilerplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scuti/Pods-Scuti-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -415,7 +430,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Scuti-ScutiTests/Pods-Scuti-ScutiTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -424,7 +439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scuti-ScutiTests/Pods-Scuti-ScutiTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		718837ACCF096B8736BE5E05 /* [CP] Check Pods Manifest.lock */ = {
@@ -442,7 +457,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeBoilerplate-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Scuti-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -464,7 +479,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeBoilerplate-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Scuti-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,7 +501,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeBoilerplate-reactNativeBoilerplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Scuti-ScutiTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -546,7 +561,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactNativeBoilerplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Scuti-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* reactNativeBoilerplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ScutiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +601,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* reactNativeBoilerplateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ScutiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +610,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* reactNativeBoilerplate */;
+			target = 13B07F861A680F5B00A75B9A /* Scuti */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* reactNativeBoilerplate-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Scuti-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +623,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A6CA52308E49AB892FCB950 /* Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.debug.xcconfig */;
+			baseConfigurationReference = 32847C0EC5D751655522D181 /* Pods-Scuti-ScutiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = reactNativeBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = ScutiTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +640,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeBoilerplate.app/reactNativeBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scuti.app/Scuti";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9220F0F29AFA1128DDFB9A9A /* Pods-reactNativeBoilerplate-reactNativeBoilerplateTests.release.xcconfig */;
+			baseConfigurationReference = 05A03E67CFDB47A9BA1319EB /* Pods-Scuti-ScutiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = reactNativeBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = ScutiTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +660,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeBoilerplate.app/reactNativeBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scuti.app/Scuti";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DB6A93FAEC9083353AC9358 /* Pods-reactNativeBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = 8AE6FE6B8A78582FA1C89E03 /* Pods-Scuti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = reactNativeBoilerplate/Info.plist;
+				INFOPLIST_FILE = Scuti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +680,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactNativeBoilerplate;
+				PRODUCT_NAME = Scuti;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +689,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A0E58EE05F9231E8F149BC6 /* Pods-reactNativeBoilerplate.release.xcconfig */;
+			baseConfigurationReference = 85C35B49ED3FB8BE1EF630E3 /* Pods-Scuti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = reactNativeBoilerplate/Info.plist;
+				INFOPLIST_FILE = Scuti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +702,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactNativeBoilerplate;
+				PRODUCT_NAME = Scuti;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +710,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51CE26B5194DAF52923452AF /* Pods-reactNativeBoilerplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2CD07501BB1EEA2EF93F611F /* Pods-Scuti-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +721,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeBoilerplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "Scuti-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactNativeBoilerplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Scuti-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +738,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1607753D527FF69916481347 /* Pods-reactNativeBoilerplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = 05803D860EBF387C7022255F /* Pods-Scuti-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +749,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeBoilerplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "Scuti-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactNativeBoilerplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Scuti-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +766,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFA3CE07F54508A288BFFFD4 /* Pods-reactNativeBoilerplate-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = ECB6E2BA685D44DF7B6E4B46 /* Pods-Scuti-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +776,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeBoilerplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Scuti-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactNativeBoilerplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Scuti-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeBoilerplate-tvOS.app/reactNativeBoilerplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scuti-tvOS.app/Scuti-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D71C7E2E22B0EDD481FA49A /* Pods-reactNativeBoilerplate-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = FD06681BEAC92D095C8FB36D /* Pods-Scuti-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +803,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "reactNativeBoilerplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Scuti-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.reactNativeBoilerplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Scuti-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactNativeBoilerplate-tvOS.app/reactNativeBoilerplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scuti-tvOS.app/Scuti-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +934,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactNativeBoilerplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ScutiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +943,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactNativeBoilerplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Scuti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +952,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeBoilerplate-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Scuti-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +961,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactNativeBoilerplate-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Scuti-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +970,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactNativeBoilerplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Scuti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
